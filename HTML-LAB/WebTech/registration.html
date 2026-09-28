@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+    <hr>
+    <p>
+        <a href="index.html">HOME</a> |
+        <a href="about.html">ABOUT</a> |
+        <a href="contact.html">CONTACT</a> |
+        <a href="images.html">PROFILE</a>
+    </p>
+    <hr>
+    
+    <form action="registration_form">
+        <h1>Student Registration Form</h1>
+        <label for="full_name">Full Name</label>
+        <input type="text" placeholder="Enter Name" id="fullname" name="fullname"><br><br>
+        <label for="student_id">Student ID</label>
+        <input type="text" placeholder="ID Number" id="student_id" name="student_id"><br><br>
+        <label for="password">Password</label>
+        <input type="text" placeholder="Enter your password" id="password" name="password"><br><br>
+        <label for="birthday">Birthday</label>
+        <input type="text" placeholder="Your Birthdate" id="birthday" name="birthday"><br><br>
+        <label for="gender">Gender</label>
+        <select name="option" id="option">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+
+        <label for="program">Program</label>
+        <select name="program" id="program">
+            <option value="BSIT">Information Technology and Computer Science</option>
+            <option value="CJE">Criminal Justice</option>
+            <option value="CTE">Teacher Education</option>
+            <option value="COA">Accountancy</option>
+            <option value="CAS">Arts & Science</option>
+            <option value="CBA">Business Administration</option>
+            <option value="CEA">Engineering & Architecture</option>
+            <option value="CHTM">College of Hospitality and Tourism Management</option>
+            <option value="NURSING">Nursing</option>
+            <option value="Law">Law</option>
+        </select><br><br>
+
+        <label for="hobbies">Hobbies</label>
+        <input type="text" id="hobbies" name="hobbies"><br><br>
+        <label for="address">Address</label>
+        <input type="text" name="adress" id="address"><br><br>
+        <label for="comments"><h2>Comments</h2></label>
+        <input type="text" placeholder="(Optional)" id="comments" name="comments"><br><br>
+        <form action="submit" method="post">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form> <br><br>
+
+    </form>
+
+</body>
+</html>
