@@ -7,25 +7,69 @@
 </head>
 <body>
     <header>
-        <h1>Contact</h1><hr>
+        <h1>Contact</h1>
+        <hr>
         <nav>
-            <li>
-                <button><a href="index.html"><strong>HOME</strong></a></button>
-                <button><a href="about.html"><strong>ABOUT</strong></a></button>
-                <button><a href="education.html"><strong>EDUCATION</strong></a></button>
-                <button><a href="skills.html"><strong>SKILLS</strong></a></button>
-                <button><a href="contact.html"><strong>CONTACT</strong></a></button>
-            </li>
-        </nav> <hr>
+            <ul>
+                <li><a href="index.html"><strong>HOME</strong></a></li>
+                <li><a href="about.html"><strong>ABOUT</strong></a></li>
+                <li><a href="education.html"><strong>EDUCATION</strong></a></li>
+                <li><a href="skills.html"><strong>SKILLS</strong></a></li>
+                <li><a href="contact.html"><strong>CONTACT</strong></a></li>
+            </ul>
+        </nav>
+        <hr>
     </header>
-
-    <section id="contact">
-        <p>Feel free to reach out through any of the contact available below:</p>
-        <a href="https://github.com/christianpedro000-arch"><img src="/WebTech/Final_Lab_Website_Project/images/github.png" alt="github" width="150" height="50"></a> <br>
-        <a href="christianpedro000@gmail.com"><img src="/WebTech/Final_Lab_Website_Project/images/email.jpg" alt="email" width="100" height="100"></a> <br>
-        <a href="tel:09097392096"><img src="/WebTech/Final_Lab_Website_Project/images/phone.jpg" alt="phone" width="100" height="100"></a> <br>
-    </section>
-
-    
+ 
+    <main>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <article>
+                <p>Feel free to reach out through any of the contacts available below:</p>
+                <a href="https://github.com/christianpedro000-arch" target="_blank" rel="noopener noreferrer"><img src="images/github.png" alt="GitHub" width="150" height="50"></a> <br>
+                <a href="mailto:christianpedro000@gmail.com"><img src="images/email.jpg" alt="Email" width="100" height="100"></a> <br>
+                <a href="tel:09097392096"><img src="images/phone.jpg" alt="Phone" width="100" height="100"></a> <br>
+            </article>
+ 
+            <article>
+                <h3>Send Me a Message</h3>
+                <form action="#" method="post">
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+ 
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+ 
+                    <p>
+                        <label for="subject">Subject:</label><br>
+                        <input type="text" id="subject" name="subject" required>
+                    </p>
+ 
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                    </p>
+ 
+                    <p>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                    </p>
+                </form>
+            </article>
+        </section>
+    </main>
+ 
+    <footer>
+        <hr>
+        <p>
+            Thank you for visiting my first web page. I hope to improve as I
+            learn more about web development.
+        </p>
+        <p>&copy; 2026 Christian Jay B. Pedro</p>
+    </footer>
 </body>
 </html>
