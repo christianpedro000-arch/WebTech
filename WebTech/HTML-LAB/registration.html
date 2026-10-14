@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+
+    <!-- LAB ACTIVITY 7: HTML Forms -->
+    <h1>Student Registration Form</h1>
+    <hr>
+    <p>
+        <a href="index.html">HOME</a> |
+        <a href="about.html">ABOUT</a> |
+        <a href="contact.html">CONTACT</a> |
+        <a href="images.html">PROFILE</a>
+    </p>
+    <hr>
+    
+    <form action="registration_form" method="post">
+
+        <h1>Student Registration Form</h1>
+        <label for="full_name">Full Name</label>
+        <input type="text" placeholder="Enter Name" id="fullname" name="fullname" required minlength="2" maxlength="50"><br><br>
+
+        <label for="student_id">Student ID</label>
+        <input type="text" id="student_id" name="student_id" placeholder="ID Number" required minlength="6" maxlength="12"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required maxlength="100"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8" maxlength="20"><br><br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="program">Program</label>
+        <select name="program" id="program" required>
+            <option value="" disabled selected>-- Select Program --</option>
+            <option value="BSIT">Information Technology and Computer Science</option>
+            <option value="CJE">Criminal Justice</option>
+            <option value="CTE">Teacher Education</option>
+            <option value="COA">Accountancy</option>
+            <option value="CAS">Arts &amp; Science</option>
+            <option value="CBA">Business Administration</option>
+            <option value="CEA">Engineering &amp; Architecture</option>
+            <option value="CHTM">College of Hospitality and Tourism Management</option>
+            <option value="NURSING">Nursing</option>
+            <option value="LAW">Law</option>
+        </select><br><br>
+
+        <label for="hobbies">Hobbies</label>
+        <input type="text" id="hobbies" name="hobbies"><br><br>
+
+        <label for="address">Address</label><br>
+        <textarea id="address" name="address" rows="3" cols="40" placeholder="Enter your address" required minlength="10" maxlength="150"></textarea><br><br>
+
+        <label for="comments">Comments</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40" placeholder="(Optional)" maxlength="200"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
