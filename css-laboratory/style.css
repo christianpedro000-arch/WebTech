@@ -1,4 +1,38 @@
 body {
-    background-color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    text-transform: uppercase;
+}
+
+#page-title {
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    background-color: #eeeeee;
+    padding: 15px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.card p {
+    color: #444444;
+}
+
+a {
+    color: #145da0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
