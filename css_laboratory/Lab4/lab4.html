@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4: The CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Content</h2>
+        <p>The innermost area that holds the text and images.</p>
+    </div>
+    <div class="card">
+        <h2>Padding</h2>
+        <p>The space between the content and the border.</p>
+    </div>
+    <div class="card">
+        <h2>Margin</h2>
+        <p>The space outside the border that separates elements.</p>
+    </div>
+
+    <h2>Reflection</h2>
+    <p>
+        <b>Padding</b> is the space inside an element, between its content and its border. 
+        <b>Margin</b> is the space outside the border that separates the element from other elements.
+    </p>
+    <p>
+        <i>box-sizing: border-box</i> makes the width and height include the padding and border, 
+        so a 280px card stays 280px wide. Without it, the padding and border are added on top 
+        of the width and the element becomes bigger than expected.
+    </p>
+    <p>
+        Excessive margin pushes elements far apart, wastes space, and can make items wrap or 
+        overflow on small screens, which makes the layout longer and harder to read.
+    </p>
+</body>
+</html>

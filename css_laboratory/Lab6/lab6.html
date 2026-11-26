@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile | Christian Jay B. Pedro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Christian Jay B. Pedro</h1>
+        <p>Second-year IT student majoring in Web Development, learning to build clean and accessible websites.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="/CSS_LABORATORY/image/profile.jpg" alt="Portrait of Christian Jay B. Pedro" class="profile-img">
+                <p>I am an Information Technology student at the University of the Cordilleras. I enjoy web development, anime, and creating gaming content.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Emmet &amp; VS Code</li>
+                <li>Git &amp; GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card"><h3>CSS Laboratory</h3><p>Five labs covering selectors, the box model, and Flexbox.</p></div>
+                <div class="card"><h3>Student Profile</h3><p>This responsive profile website built with HTML and CSS.</p></div>
+                <div class="card"><h3>HATID On-The-Way</h3><p>Group project on an order tracking and fulfillment data model.</p></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Christian Jay B. Pedro</p>
+    </footer>
+    
+</body>
+</html>

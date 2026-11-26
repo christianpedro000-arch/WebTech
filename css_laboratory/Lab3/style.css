@@ -1,0 +1,38 @@
+/* Four colors: #f5f7fa background, #1a2b4c dark blue, #1b5e20 dark green, #145da0 link blue */
+body {
+    background-color: #f5f7fa;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1a2b4c;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #1b5e20;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #145da0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
